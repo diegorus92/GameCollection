@@ -1,0 +1,34 @@
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.deps.json
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.pdb
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.AssemblyInfoInputs.cache
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.AssemblyInfo.cs
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.csproj.CoreCompileInputs.cache
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\refint\GameCollectionAPI_BL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.pdb
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\ref\GameCollectionAPI_BL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.runtimeconfig.json
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_DAL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_DAL.pdb
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.csproj.AssemblyReference.cache
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.csproj.CopyComplete
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.genruntimeconfig.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.deps.json
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.runtimeconfig.json
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_BL.pdb
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_DAL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\bin\Debug\net6.0\GameCollectionAPI_DAL.pdb
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.csproj.AssemblyReference.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.AssemblyInfoInputs.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.AssemblyInfo.cs
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.csproj.CoreCompileInputs.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.csproj.CopyComplete
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\refint\GameCollectionAPI_BL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.pdb
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.genruntimeconfig.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\ref\GameCollectionAPI_BL.dll

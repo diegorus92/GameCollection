@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GameCollectionAPI_AL.props" />
+</Project>

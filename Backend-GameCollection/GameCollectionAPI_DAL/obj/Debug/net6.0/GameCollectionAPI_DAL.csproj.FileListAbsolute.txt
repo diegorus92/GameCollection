@@ -1,0 +1,28 @@
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.deps.json
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.pdb
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.csproj.AssemblyReference.cache
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.AssemblyInfoInputs.cache
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.AssemblyInfo.cs
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.csproj.CoreCompileInputs.cache
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\refint\GameCollectionAPI_DAL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.pdb
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\ref\GameCollectionAPI_DAL.dll
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.runtimeconfig.json
+D:\Diego\Varios\Proyectos de Programacion\FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.genruntimeconfig.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.deps.json
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.runtimeconfig.json
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\bin\Debug\net6.0\GameCollectionAPI_DAL.pdb
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.csproj.AssemblyReference.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.AssemblyInfoInputs.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.AssemblyInfo.cs
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.csproj.CoreCompileInputs.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\refint\GameCollectionAPI_DAL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.pdb
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\GameCollectionAPI_DAL.genruntimeconfig.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_DAL\obj\Debug\net6.0\ref\GameCollectionAPI_DAL.dll

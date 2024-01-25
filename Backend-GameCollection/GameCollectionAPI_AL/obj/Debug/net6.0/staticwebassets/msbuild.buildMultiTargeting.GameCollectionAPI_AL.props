@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GameCollectionAPI_AL.props" />
+</Project>
