@@ -17,11 +17,16 @@ namespace GameCollectionAPI_BL.Services
         private readonly DatabaseContext _databaseContext;
         private readonly string _imagePath;
 
+
         public GameImageService(DatabaseContext databaseContext, IConfiguration config)
         {
             _databaseContext = databaseContext;
             _imagePath = config.GetSection("Configuration").GetSection("ImagePath").Value;
         }
+
+
+
+
 
 
         public string AddGameImage(GameImageDTO gameImageDto)
@@ -51,7 +56,7 @@ namespace GameCollectionAPI_BL.Services
                 }
             ////////////////////////////////////////
 
-            gameImage.GameImagePath = path;
+            gameImage.GameImageName = gameImageDto.GameImage.FileName;
             gameImage.ImageGame = game;
             _databaseContext.GameImages.Add(gameImage);
 

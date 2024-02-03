@@ -1,0 +1,17 @@
+*{
+    margin: 5% 0%;
+}
+
+.card{
+    background: linear-gradient(80deg, rgb(192, 192, 192) , rgb(85, 84, 95));
+    border: 0.3rem grey;
+    border-style:outset;
+}
+
+img{
+    height: 300px;
+}
+
+a{
+    color:greenyellow;
+}

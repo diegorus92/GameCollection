@@ -9,6 +9,6 @@ namespace GameCollectionAPI_BL.DTOs
     public class DevelopmentCompanyResponseDTO
     {
         public string DevelopmentCompanyName { get; set; }
-        public string LogoName { get; set; } //Logo image path
+        public string LogoName { get; set; } //Logo image name and extension
     }
 }

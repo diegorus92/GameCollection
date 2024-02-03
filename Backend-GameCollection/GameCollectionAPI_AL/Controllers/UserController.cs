@@ -3,6 +3,7 @@ using GameCollectionAPI_BL.Services;
 using GameCollectionAPI_DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace GameCollectionAPI_AL.Controllers
 {
@@ -29,6 +30,14 @@ namespace GameCollectionAPI_AL.Controllers
         public async Task<IEnumerable<UserResponseDTO>> GetUsers()
         {
             return await _userService.GetUsers();
+        }
+
+        [HttpGet("{email}")]
+        public async Task<ActionResult<UserResponseDTO>> GetUserByEmail(string email)
+        {
+            UserResponseDTO userResponseDto = await _userService.GetUserByEmail(email);
+            if (userResponseDto != null) return Ok(userResponseDto);
+            return NotFound(null);
         }
     }
 }

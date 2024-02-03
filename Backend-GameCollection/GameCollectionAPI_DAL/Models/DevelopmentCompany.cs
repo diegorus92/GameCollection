@@ -10,7 +10,7 @@ namespace GameCollectionAPI_DAL.Models
     {
         public long DevelopmentCompanyId { get; set; }
         public string DevelopmentCompanyName { get; set; }
-        public string DevelopmentCompanyLogo { get; set; } //Logo image path
+        public string DevelopmentCompanyLogo { get; set; } //Logo image name + ext
 
 
         public DevelopmentCompany(string developmentCompanyName, string developmentCompanyLogo)

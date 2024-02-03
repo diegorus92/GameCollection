@@ -114,7 +114,7 @@ namespace GameCollectionAPI_DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("GameImageId"), 1L, 1);
 
-                    b.Property<string>("GameImagePath")
+                    b.Property<string>("GameImageName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

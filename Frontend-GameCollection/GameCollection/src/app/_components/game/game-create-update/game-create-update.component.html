@@ -1,0 +1,76 @@
+<div class="container">
+    <!--***Use attr enctype with "multipart/form-data" in order to submit files***-->
+    <form [formGroup]="formGroupGame" (submit)="onSubmit($event)" enctype="multipart/form-data">
+        <div class="form-group">
+            <input 
+                [ngClass]="!formGroupGame.controls['gameName'].valid && formGroupGame.controls['gameName'].touched ? 'form-control error-input':'form-control'"
+                type="text" placeholder="Game Name" formControlName="gameName"
+            >
+            <p *ngIf="formGroupGame.controls['gameName'].touched &&!formGroupGame.controls['gameName'].valid"
+                class="error-msg"
+            >
+                This field cannot be empty!
+            </p>
+        </div>
+        
+        <!--Development Company selector-->
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">Select Development Company</label>
+            <select 
+            [ngClass]="!formGroupGame.controls['gameCompanyName'].valid && formGroupGame.controls['gameCompanyName'].touched ? 'form-control error-input':'form-control'"
+                id="exampleFormControlSelect1" formControlName="gameCompanyName"
+            >
+                <option>Select company</option>
+                <option *ngFor="let name of companyNames">{{name}}</option>
+            </select>
+            <p *ngIf="formGroupGame.controls['gameCompanyName'].touched &&!formGroupGame.controls['gameCompanyName'].valid"
+                class="error-msg"
+            >
+                This field cannot be empty!
+            </p>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Game cover image</label>
+            <!--***In order to upload a file, we are not going to use formControlName. Instead we're going to capture
+                file in event (change),that is called each time file change or is selected, 
+                and then  bind the file data to the control in formGroup***-->
+            <input type="file" class="form-control-file" id="exampleFormControlFile1" (change)="onFileChange($event, 'gameImage')" accept="image/jpg, image/png">
+        </div>
+
+        <!--Categories multiple selector-->
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Categories</label>
+            <select 
+                multiple 
+                id="exampleFormControlSelect2" 
+                formControlName="gameCategories"
+                [ngClass]="!formGroupGame.controls['gameCategories'].valid && formGroupGame.controls['gameCategories'].touched ? 'form-control error-input':'form-control'"
+            >
+              <option *ngFor="let name of categoryNames">{{name}}</option>
+            </select>
+            <p *ngIf="formGroupGame.controls['gameCategories'].touched && !formGroupGame.controls['gameCategories'].valid"
+                class="error-msg"
+            >
+                This field cannot be empty!
+            </p>
+          </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Game Synopsis</label>
+            <textarea 
+                id="exampleFormControlTextarea1" rows="3" 
+                formControlName="gameSynopsis"
+                [ngClass]="!formGroupGame.controls['gameSynopsis'].valid && formGroupGame.controls['gameSynopsis'].touched ? 'form-control error-input':'form-control'"    
+            ></textarea>
+            <p *ngIf="formGroupGame.controls['gameSynopsis'].touched &&!formGroupGame.controls['gameSynopsis'].valid"
+                class="error-msg"
+            >
+                This field cannot be empty!
+            </p>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Game</button>
+    </form>
+</div>
+

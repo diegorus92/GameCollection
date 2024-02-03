@@ -24,6 +24,9 @@ namespace GameCollectionAPI_BL.Services
 
 
 
+
+
+
         //Register
         public string AddUser(UserDTO user)
         {
@@ -57,23 +60,76 @@ namespace GameCollectionAPI_BL.Services
             return "New user registered successfully";
         }
 
+
         public async Task<IEnumerable<UserResponseDTO>> GetUsers()
         {
-            var users = await _databaseContext.Users.Include(user => user.UserRole).ToListAsync();
+            var users = await _databaseContext.Users.Include(user => user.UserRole).Include(user => user.UserGames).ToListAsync();
             await _databaseContext.DisposeAsync();
 
             List<UserResponseDTO> result = new List<UserResponseDTO>();
-            for(int i = 0; i < users.Count; i++)
+            List<GameResponseDTO> gamesUser = new List<GameResponseDTO>();
+
+            for (int i = 0; i < users.Count; i++)
             {
+                foreach (Game game in users[i].UserGames.ToList())
+                {
+                    gamesUser.Add(new GameResponseDTO
+                    {
+                        GameId = game.GameId,
+                        GameName = game.GameName,
+                        GameRank = game.GameRank,
+                        GameImage = game.GameImage,
+
+                    });
+                }
+
                 result.Add(new UserResponseDTO
                 {
                     UserNickName = users[i].UserNickName,
                     UserEmail = users[i].UserEmail,
                     RoleName = users[i].UserRole.RoleName,
-                    Games = users[i].UserGames.ToList()
+                    Games = gamesUser.ToList()
                 });
+
+                gamesUser.Clear();
             }
             
+            return result;
+        }
+
+
+        public async Task<UserResponseDTO>? GetUserByEmail(string email)
+        {
+            User? user = await _databaseContext.Users.
+                Include(user => user.UserRole).Include(user => user.UserGames).
+                FirstOrDefaultAsync(user => user.UserEmail.ToLower() == email.ToLower());
+
+            if (user == null) return null;
+            
+            //Get games list of selected user
+            ICollection<GameResponseDTO> gamesUserDto = new List<GameResponseDTO>();
+            foreach(Game gamesUser in user.UserGames.ToList())
+            {
+                gamesUserDto.Add(new GameResponseDTO
+                {
+                    GameId = gamesUser.GameId,
+                    GameName = gamesUser.GameName,
+                    GameRank = gamesUser.GameRank,
+                    GameImage = gamesUser.GameImage,
+                    GameSynopsis = gamesUser.GameSynopsis,
+
+                });
+            }
+
+            //Create response user data
+            UserResponseDTO result = new UserResponseDTO
+            {
+                UserNickName = user.UserNickName,
+                UserEmail = user.UserEmail,
+                RoleName = user.UserRole.RoleName,
+                Games = gamesUserDto.ToList() //games list of user
+            };
+
             return result;
         }
     }

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.principal-background{
+    background: linear-gradient(35deg,white, 5%, black);
+    background-repeat:repeat-y;
+    background-size:contain;
+    color:aliceblue;
+}
+
+.games{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.games>div{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+
+

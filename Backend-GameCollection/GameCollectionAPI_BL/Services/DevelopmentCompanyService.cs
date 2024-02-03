@@ -17,11 +17,16 @@ namespace GameCollectionAPI_BL.Services
         private readonly DatabaseContext _databaseContext;
         private readonly string _imagePath;
 
+
         public DevelopmentCompanyService(DatabaseContext databaseContext, IConfiguration config)
         {
             _databaseContext = databaseContext;
             _imagePath = config.GetSection("Configuration").GetSection("ImagePath").Value;
         }
+
+
+
+
 
         public string AddCompany(DevelopmentCompanyDTO company)
         {
@@ -39,7 +44,7 @@ namespace GameCollectionAPI_BL.Services
             
             try
             {
-                logoPath = Path.Combine(_imagePath, (company.LogoName+"."+imageExtension));
+                logoPath = Path.Combine(_imagePath, company.File.FileName);
                 using (Stream fileStream = new FileStream(logoPath, FileMode.Create))
                 {
                     company.File.CopyTo(fileStream);
@@ -52,7 +57,8 @@ namespace GameCollectionAPI_BL.Services
                 status += $"Error while saving logo: {ex.Message}\n";
             }
             
-            myCompany = new DevelopmentCompany(company.DevelopmentCompanyName,logoPath);
+
+            myCompany = new DevelopmentCompany(company.DevelopmentCompanyName, company.File.FileName);
             _databaseContext.DevelopmentCompanies.Add(myCompany);
             _databaseContext.SaveChanges();
             _databaseContext.Dispose();

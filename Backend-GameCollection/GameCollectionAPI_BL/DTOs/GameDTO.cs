@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 namespace GameCollectionAPI_BL.DTOs
 {
     public class GameDTO
-    {
-        public long UserId { get; set; }   
+    {  
         public string GameName { get; set; }
-        public int GameRank { get; set; }
+        public int GameRank { get; set; } = 1;
         public string GameSynopsis { get; set; }
 
         public IFormFile? ImageFile { get; set; }

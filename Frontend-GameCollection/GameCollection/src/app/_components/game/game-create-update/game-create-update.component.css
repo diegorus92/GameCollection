@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    margin-top: 2rem;
+}
+
+form{
+    height: 600px;
+}
+
+.form-group{
+    margin-top: 1.5rem;
+}
+
+.error-input{
+    border: 3px red solid;
+}
+
+.error-msg{
+    color:red;
+}
+

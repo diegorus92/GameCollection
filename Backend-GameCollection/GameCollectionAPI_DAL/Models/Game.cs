@@ -11,7 +11,7 @@ namespace GameCollectionAPI_DAL.Models
         public long GameId { get; set; }
         public string GameName { get; set; }
         public int GameRank { get; set; } = 1;
-        public string? GameImage { get; set; } //Front image game path
+        public string? GameImage { get; set; } //Front image game name + ext
         public string? GameSynopsis { get; set; }
         
         public ICollection<GameImage>? GameImages { get; set; } = new List<GameImage>();

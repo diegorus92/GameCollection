@@ -12,6 +12,6 @@ namespace GameCollectionAPI_BL.DTOs
         public string UserNickName { get; set; }
         public string UserEmail { get; set; }
         public string RoleName { get; set; }
-        public List<Game> Games { get; set; } = new List<Game>();
+        public List<GameResponseDTO> Games { get; set; } = new List<GameResponseDTO>();
     }
 }

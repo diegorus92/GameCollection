@@ -32,3 +32,4 @@ C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-Game
 C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.pdb
 C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.genruntimeconfig.cache
 C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\ref\GameCollectionAPI_BL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\GameCollection\Backend-GameCollection\GameCollectionAPI_BL\obj\Debug\net6.0\GameCollectionAPI_BL.sourcelink.json

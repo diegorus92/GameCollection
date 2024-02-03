@@ -21,10 +21,16 @@ namespace GameCollectionAPI_AL.Controllers
 
 
 
-        [HttpPost]
-        public ActionResult<string>AddGame([FromForm]GameDTO game)
+        [HttpPost("new-game-user")]
+        public ActionResult<string>AddGame([FromForm]GameDTO game, long userId)
         {
-            return Ok(_gameService.AddGame(game));
+            return Ok(_gameService.AddGame(game, userId));
+        }
+
+        [HttpPost("new-game")]
+        public ActionResult<string> AddGame([FromForm]GameDTO game)
+        {
+            return Ok(_gameService?.AddGame(game));
         }
 
         [HttpGet]

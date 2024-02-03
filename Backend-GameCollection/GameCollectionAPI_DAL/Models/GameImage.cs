@@ -9,7 +9,7 @@ namespace GameCollectionAPI_DAL.Models
     public class GameImage
     {
         public long GameImageId { get; set; }
-        public string GameImagePath { get; set; }
+        public string GameImageName { get; set; } //Image name + ext
 
 
         public Game ImageGame { get; set; }

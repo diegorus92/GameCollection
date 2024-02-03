@@ -12,5 +12,6 @@ namespace GameCollectionAPI_BL.Services
     {
         public string AddUser(UserDTO userDto);
         public Task<IEnumerable<UserResponseDTO>> GetUsers();
+        public Task<UserResponseDTO> GetUserByEmail(string email);
     }
 }
